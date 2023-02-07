@@ -19,7 +19,7 @@ label.logo{
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
-    font-family: 'Comic sans MS';
+    font-family: 'Comic Neue', cursive;
 }
 nav ul{
     float: right;
@@ -40,6 +40,7 @@ nav ul li a{
 a.active, a:hover{
     background: rgb(245, 115, 245);
     transition: .5s;
+    font-size: larger;
 }
 .checkbtn{
     font-size: 30px;
@@ -60,6 +61,7 @@ a.active, a:hover{
     }
     nav ul li a {
         font-size: 16px;
+        font-family: 'Comic Neue', cursive;
     }
 }
 
@@ -90,8 +92,11 @@ a.active, a:hover{
     }
     #check:checked~ul{
         left: 0;
+        z-index:1;
     }
 }
+
+@import url('https://fonts.cdnfonts.com/css/copperplate-gothic-std');
 
 section{
    background-image:
@@ -105,6 +110,7 @@ section{
     width: 100vw;
     padding-left: 3vw;
 }
+
 .span1{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -112,7 +118,7 @@ section{
 }
 .span2{
     font-size: 50px;
-    font-family: 'Copperplate Gothic Bold';
+    font-family: 'Copperplate Gothic Std', sans-serif;
     font-weight: bold;
     
 }
@@ -122,6 +128,7 @@ span{
 }
 .span-container{
     padding-top: 30vh;
+    
 }
 .icons-container{
     margin-left: 10vw;
@@ -172,7 +179,7 @@ button a{
 }
 
 article{
-    font-family: 'Comic Sans MS';
+    font-family: 'Comic Neue', cursive;
     margin-left: 20vw;
     margin-right: 10vw;
     padding-top: 20vh;
@@ -201,15 +208,184 @@ article{
     position: absolute;
     bottom: 20vh;
     right: 5vw;
-    opacity: 0.5;
+    opacity: 0.3;
 }
-.container{
+.container_image{
     position: absolute;
-    height: 15vh;
+    height: 20vh;
     width: 20vw;
-    border: 1px solid white;
-    
+    border: 2px solid white;
+    top: 20vh;
+    left: 5vw;
+    border-radius: 5px;
+    box-sizing: content-box;
+    box-shadow: 3px 3px 3px rgb(3, 3, 3);
+    background: url("./120px-Node.js_logo.svg.png") no-repeat;
+    background-color: bisque;
+    background-size: contain;
 }
+.container_span1{
+    font-weight: bold;
+    color: white;
+    top: 24vh;
+    left: 20vw;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#btn3{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    top: 30vh;
+    left: 30vw;
+    position: absolute;
+    background-color: rgb(189, 36, 219);
+    color: #f9f9f8;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 3px 4px 4px rgba(3,3,3, 0.7);
+}
+
+.section_2 {
+    height: 155vh;
+}
+
+.container_image{
+    position: absolute;
+    height: 20vh;
+    width: 20vw;
+    border: 2px solid white;
+    top: 20vh;
+    left: 5vw;
+    border-radius: 5px;
+    box-sizing: content-box;
+    box-shadow: 3px 3px 3px rgb(3, 3, 3);
+    background: url("./120px-Node.js_logo.svg.png") no-repeat;
+    background-color: bisque;
+    background-size: contain;
+}
+
+.container_image_2{
+    position: absolute;
+    height: 20vh;
+    width: 20vw;
+    border: 2px solid white;
+    top: 50vh;
+    left: 5vw;
+    border-radius: 5px;
+    box-sizing: content-box;
+    box-shadow: 3px 3px 3px rgb(3, 3, 3);
+    background: url("./index.jpg");
+    background-size: contain;
+    background-position: center;
+}
+.container_span2{
+    font-weight: bold;
+    color: white;
+    top: 55vh;
+    left: 20vw;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#btn4 {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    top: 60vh;
+    left: 30vw;
+    position: absolute;
+    background-color: rgb(189, 36, 219);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 3px 4px 4px rgba(3,3,3, 0.7);
+}
+.container_image_3{
+    position: absolute;
+    height: 20vh;
+    width: 20vw;
+    border: 2px solid white;
+    top: 80vh;
+    left: 5vw;
+    border-radius: 5px;
+    box-sizing: content-box;
+    box-shadow: 3px 3px 3px rgb(3, 3, 3);
+    background: url("./index.png") no-repeat;
+    background-color: rgb(247, 215, 38);
+    background-size: contain;
+    background-position: center;
+}
+.container_span3{
+    font-weight: bold;
+    color: white;
+    top: 83vh;
+    left: 20vw;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#btn5 {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    top: 90vh;
+    left: 30vw;
+    position: absolute;
+    background-color: rgb(189, 36, 219);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 3px 4px 4px rgba(3,3,3, 0.7);
+}
+.container_image_4{
+    position: absolute;
+    height: 20vh;
+    width: 20vw;
+    border: 2px solid white;
+    top: 110vh;
+    left: 5vw;
+    border-radius: 5px;
+    box-sizing: content-box;
+    box-shadow: 3px 3px 3px rgb(3, 3, 3);
+    background: url("./wallpaper\ 2.jpg") no-repeat;
+    background-color: rgb(247, 215, 38);
+    background-size: cover;
+    background-position: center;
+}
+.container_span4{
+    font-weight: bold;
+    color: white;
+    top: 112vh;
+    left: 20vw;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#btn6{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    top: 121vh;
+    left: 30vw;
+    position: absolute;
+    background-color: rgb(189, 36, 219);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 3px 4px 4px rgba(3,3,3, 0.7);
+}
+.portclass:hover {
+    background-color: transparent;
+}
+
+
 /*#img{
     height: 80vh;
     width: 30vw;
@@ -224,6 +400,9 @@ article{
         height: 120vh;
         
     }
+    .section_2{
+        height: 170vh;
+    }
     article{
         margin-left: 10vw;
         padding-top: 10vh;
@@ -232,6 +411,10 @@ article{
         height: 150px;
         width: 150px;
         opacity: 0.3;
+        display: none;
+    }
+    .half-circle{
+        display: block;
     }
     #btn1, #btn2 {
         width: 25vw;
@@ -240,18 +423,29 @@ article{
         margin-top: 8vh;
         margin-left: 15vw;
     }
+    .span1{
+        margin-left: 0vw;
+        font-family: 'Comic Neue', cursive;
+    }
     .span2{
         font-size: 55px;
+        margin-left: 0vw;
     }
-    .span2 b {
-        margin-left: 10vw;
-    }
+    
     .span3 {
         line-height: 5vh;
+        margin-left: 0vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     #span3_b{
         color: hotpink;
-        margin-left: 10vw;
+        
+    }
+    .icons-container{
+        margin-left: 25vw;
+    }
+    .span-container{
+        text-align: center;
     }
     .half-circle{
         top: 15vh;
@@ -259,6 +453,57 @@ article{
         background-image: url();
         opacity: 1;
     }
+    .container_image, .container_image_2, .container_image_3, .container_image_4{
+        height: 15vh;
+        left: 30vw;
+        width: 40vw;
+    }
+    .container_span1, .container_span2, .container_span3, .container_span4{
+        top: 32vh;
+        left: -3vw;
+        font-size: 18px;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: purple;
+        text-align: center;
+    }
+    #btn3, #btn4, #btn5, #btn6{
+        top: 43vh;
+        left: 30vw;
+        padding: 6px;
+    }
+    .container_image{
+        top: 16vh;
+    }
+    .container_image_2{
+        top: 56vh;
+    }
+    .container_image_3{
+        top: 100vh;
+    }
+    .container_image_4{
+        top: 138vh;
+    }
+    .container_span2{
+        top: 74vh
+    }
+    .container_span3{
+        top: 118vh;
+        margin-left: 20vw;
+    }
+    .container_span4{
+        top: 155vh;
+    }
+    #btn4{
+        top: 85vh;
+    }
+    #btn5{
+        top: 123vh;
+    }
+    #btn6{
+        top: 170vh;
+    }
+
+    
 }
 
 @media (max-width: 370px){
